@@ -1,0 +1,32 @@
+Question 1:
+    https://github.com/DecKirin
+
+Question 2:
+    Request version install on system
+    >>> requests.__version__
+    '2.26.0'
+
+
+Question 3:
+    Request version install on virtualenv
+    >>> requests.__version__
+    '2.26.0'
+
+Question 4:
+    The virtual enviroment would have the same version that my mac os system install but i realize that i install on
+    my system that doesn't affect the virtualenv i still need to fetch the package online.
+
+
+Question 5:
+    "HTTP/1.1 301 Moved Permanently" was returned by "http://google.com" the URL returns "HTTP/1.1 200 OK" is "http://www.google.com"
+
+Question 6：
+    HTTP/1.1 301 Moved Permanently was returned by both "curl -i http://google.com/teapot" and "curl -iL http://google.com/teapot"
+    HTTP/2 418 is also return by "curl -iL http://google.com/teapot" which is because -iL visits redirected urls.
+
+    HTTP/1.1 418 I'm a Teapot was returned by both "curl -i http://www.google.com/teapot" and "curl -iL http://www.google.com/teapot"
+    both command has the full original urls which do not required a redirection.
+
+
+Question 7:
+    After -X POST the request method has been changed to POST
