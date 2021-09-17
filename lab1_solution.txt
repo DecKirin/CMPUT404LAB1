@@ -30,3 +30,6 @@ Question 6：
 
 Question 7:
     After -X POST the request method has been changed to POST
+
+Question 8:
+    https://raw.githubusercontent.com/DecKirin/CMPUT404LAB1/main/lab1.py
